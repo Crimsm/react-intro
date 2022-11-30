@@ -53,7 +53,7 @@ class TodoList extends Component {
                     <input 
                         value={this.state.userInput} 
                         type="text" 
-                        placeholder="Renseigner un item"
+                        placeholder="Add a new item"
                         onChange={this.onChange.bind(this)}
                         className="form-control mb-2"
                     />
